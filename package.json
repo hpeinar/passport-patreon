@@ -1,14 +1,14 @@
 {
   "name": "passport-patreon",
-  "version": "1.0.1",
-  "description": "Patreon (OAuth) authentication strategies for Passport.",
+  "version": "2.0.0",
+  "description": "Patreon (OAuth) authentication strategies for Passport. Supporting Patreon API v2",
   "main": "./lib/passport-patreon",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mzmiric5/passport-patreon.git"
+    "url": "git+https://github.com/hpeinar/passport-patreon.git"
   },
   "keywords": [
     "passport",
@@ -16,17 +16,17 @@
     "auth",
     "authn",
     "authentication",
-    "identiy",
+    "identify",
     "oauth",
     "oauth2",
     "strategy"
   ],
-  "author": "Miso (Mike)",
+  "author": "Henrik Peinar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mzmiric5/passport-patreon/issues"
+    "url": "https://github.com/hpeinar/passport-patreon/issues"
   },
-  "homepage": "https://github.com/mzmiric5/passport-patreon#readme",
+  "homepage": "https://github.com/hpeinar/passport-patreon#readme",
   "dependencies": {
     "passport-oauth2": "^1.3.0",
     "pkginfo": "^0.4.0",
